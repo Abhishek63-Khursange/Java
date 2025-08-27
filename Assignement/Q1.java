@@ -19,17 +19,18 @@ import java.util.Scanner;
 public class Q1{
     public static void main(String args[]){
       Scanner sc=new Scanner(System.in);
-      
+      System.out.print("Enter marks1: ");
       int marks1=sc.nextInt();
+      System.out.print("Enter marks2: ");
       int marks3=sc.nextInt();
 
       if(marks1>marks3)
       {
-        System.out.println(marks1);
+        System.out.println("marks1 is higher :"+marks1);
       }
       else
       {
-        System.out.println(marks3);
+        System.out.println("marks2 is higher :"+marks3);
       }
 
     }
