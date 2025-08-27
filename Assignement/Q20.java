@@ -28,34 +28,31 @@ public class Q20 {
         System.out.print("Enter Second number: ");
         int second_num=sc.nextInt();
 
+        if(operator=='+')
+        {
+            int c=first_num+second_num;
+            System.out.println(c);
 
-        switch (operator) {
-            case '+':
-                   int c=first_num+second_num;
-                   System.out.println(first_num +"+"+ second_num + "=" + c);
             
-                break;
-            case '-':
-                   int d=first_num-second_num;
-                   System.out.println(first_num +"-"+ second_num + "=" + d);
-                
-                break;
-                case '*':
-                   int e=first_num*second_num;
-                   System.out.println(first_num +"*"+ second_num + "=" + e);
-                
-                break;
-                case '/':
-                   double f=first_num/second_num;
-                   System.out.println(first_num +"/"+ second_num + "=" + f);
-                
-                break;
-                
 
-            default:
-            System.out.println("enter valid choice (+ - * / )");
-                break;
+
         }
+        else if(operator=='-')
+        {
+            int d=first_num-second_num;
+            System.out.println(d);
+        }
+        else if(operator=='*')
+        {
+            int e=first_num*second_num;
+            System.out.println(e);
+        }
+        else if(operator=='/')
+        {
+            double f=first_num/second_num;
+            System.out.println(f);
+        }
+        
     }
     
 }
