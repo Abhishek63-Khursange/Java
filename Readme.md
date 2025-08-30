@@ -1,6 +1,11 @@
 Hello this is the java repository 
 <br>
-welcome
+welcome  to 
 <br> 
-This is java practice repo
+This is java practice repo 
+<br> 
+and u will get assignment also
+
+
+
 
