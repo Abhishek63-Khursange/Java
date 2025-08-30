@@ -1,27 +1,21 @@
 package Java.oopj;
-import java.util.Scanner;
-
+import  java.util.Scanner;
 class Day1 {
 
-  int a=200;
-    int b=400;
-
-  void display()
-    {
-       int f=400;
-       int c=a+b;
-       System.out.println(c);
+    int a=1000;
+    int b;
+     void add(int num){
+        a=num;
+        System.out.println(num);
     }
+    public static void main(String[] args) {
+       Day1 m = new Day1();
+       Scanner sc=new Scanner(System.in);
 
+       
+       m.add(100);
 
-public static void main(String[] args) {
-    Day1 d1=new Day1();
-
-    d1.display();
     
-
-
-
-}
-    
-}
+      
+    }
+  }
