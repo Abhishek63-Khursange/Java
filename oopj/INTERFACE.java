@@ -28,7 +28,7 @@ class MAIN
 {
     public static void main(String[] args) {
         // INTERFACE i=new INTERFACE() ; 
-        INTERFACE i= new INTERFACE1(63.2,69.2);
+        INTERFACE i= new INTERFACE1(63.2,69.2); // take this value from default constructor
         double result=i.area();
         System.out.println("Area of Rectangle is: "+result);
 
