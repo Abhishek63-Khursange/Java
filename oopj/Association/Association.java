@@ -42,12 +42,12 @@ class Address{
 class MAINDemo{
   public static void main(String[] args) {
     
-    Address adress=new Address("Nagpur", "Maharashtra", "India", 440023);
+    Address adress=new Address("Nagpur", "Maharashtra", "India", 440023);  //object and refrence of Addresss class 
     Address adress1=new Address("Mumbai", "Maharashtra", "India", 440028);
    // a.display1();
 
-    Association a2=new Association("Abhishek", 202, adress);
-    Association a3=new Association("Sarang", 203, adress);
+    Association a2=new Association("Abhishek", 202, adress); //object and refrence of Association class // and this is the association of two class
+    Association a3=new Association("Sarang", 203, adress1);
     a2.display();
     a3.display();
     
