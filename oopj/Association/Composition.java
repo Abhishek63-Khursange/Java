@@ -41,3 +41,12 @@ class MAIN{
         com.display1();
     }
 }
+  /*
+   * Why is this Composition?
+
+In Composition, the part (Engine) cannot exist without the whole (Car).
+
+Here, when you create a Car, its Engine is automatically created inside it.
+
+If Car object c is destroyed, its Engine also gets destroyed.
+   */
