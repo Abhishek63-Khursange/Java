@@ -26,5 +26,74 @@ Anita → Balance=2000, Overdraft Limit=1000
 package Java.oopj.Assignment3;
 
 public class BankAccount11 {
+    int accountNumber;
+    String accountHolder;
+    int balance;
+
     
+    void displayBalance()
+    {
+
+
+    }
+
+    
+}
+
+class Savings extends BankAccount11{
+    String interestRate;
+
+    Savings(int accountNumber, String accountHolder,int balance, String interestRate)
+    {
+        this.accountNumber=accountNumber;
+        this.accountHolder=accountHolder;
+        this.balance=balance;
+        this.interestRate=interestRate;
+    }
+
+    void calculateInterest()
+    {
+        double interest=balance*0.05;
+       // Ramesh → Balance=5000, Interest=250
+        System.out.println(accountHolder+" -> Balance="+balance+" , Interest="+interest);
+        
+
+
+    }
+
+
+}
+
+class Current extends BankAccount11{
+    int overdraftLimit;
+    Current(int accountNumber, String accountHolder,int balance, int overdraftLimit)
+    {
+        this.accountNumber=accountNumber;
+        this.accountHolder=accountHolder;
+        this.balance=balance;
+        this.overdraftLimit=overdraftLimit;
+    }
+    void calculateInterest()
+    {
+        int overdraft=balance/2;
+       // Anita → Balance=2000, Overdraft Limit=1000
+        System.out.println(accountHolder+" -> Balance="+balance+" , Overdraft Limit="+overdraft);
+        
+
+
+    }
+
+
+}
+
+class BankMain22{
+    public static void main(String[] args) {
+        Savings b=new Savings(101, "Ramesh", 5000, "5%");
+        Current b1=new Current(102, "Anita", 2000, 1000);
+
+        b.calculateInterest();
+        b1.calculateInterest();
+
+        
+    }
 }
