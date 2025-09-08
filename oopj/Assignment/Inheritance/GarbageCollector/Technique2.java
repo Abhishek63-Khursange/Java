@@ -9,7 +9,12 @@ public class Technique2 { //RE-Assigning
     }
     
 }
-class MAINGCTECH2{
+
+class Runtime{
+
+
+}
+class MAINGCTECH2 extends Runtime{
     public static void main(String[] args) {
 
         Technique2 t=new Technique2();
@@ -50,6 +55,10 @@ System.out.println("t: "+t);//@39ed3c8d
         System.out.println("t2: "+t1);//@2a098129
         System.out.println("t3: "+t2);//@12f40c25
         System.out.println("t4: "+t3);//@3ada9e37   
+
+        //Runtime.getRuntime().gc();
+
+        System.gc();
 
     }
 }
