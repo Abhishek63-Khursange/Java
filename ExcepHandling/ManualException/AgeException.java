@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class AgeException extends Exception {
 
-    AgeException(String message)                      // this is the custome exception class 
+    AgeException(String message)                      //
     {
         super(message);// 
     }
