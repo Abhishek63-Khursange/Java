@@ -53,13 +53,6 @@ public class ArrayDefine {
 }
 
 
-
-
-
-
-
-
-
     public static void main(String[] args) {
         int size=100;
 
