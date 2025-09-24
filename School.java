@@ -15,9 +15,7 @@ class School{
         {
             this.Name=n;
             this.nexStudent=null;
-        }
-    
-        
+        }       
     }
 
     void display()
